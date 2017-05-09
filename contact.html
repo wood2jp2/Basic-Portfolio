@@ -1,33 +1,41 @@
 <html>
+
 <head>
 	<title>Contact Me</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
+	<h1>Josh Wood</h1>
 	<!--buttons linked to other web pages-->
 	<a href="index.html"><h3>About</h3></a>
 	<a href="portfolio.html"><h3>Portfolio</h3></a>
 	<a href="contact.html"><h3>Contact</h3></a>
+
 	<!--contact form; name, email, message-->
 	<section id="contact_box">
 	<h2>Contact</h2>
+	<br>
+	<br>
+	<br>
 	<p>Name</p>
-	<input type="text" name="name" value="John Smith">
+	<input type="text" name="name" value="John Smith" style="width: 250px">
 	<p>Email</p>
-	<input type="text" name="Email" value="example@gmail.com">
+	<input type="text" name="Email" value="example@gmail.com" style="width: 250px">
 	<p>Message</p>
-	<input type="text" name="Message" value="Write anything you'd like!" width="300px" height="300px">
-	<input type="submit" value="Submit">
+	<input type="text" name="Message" value="Write anything you'd like!" class="message">
+	<a href="#"><h5 style="font-size: 18px" id="submitbutton">Submit</h5></a>
 	</section>
 	
 	<!--icons with links to my media sites.-->
+	<div id='connectwithme'>
 	<h4>Connect with Me</h4>
-		<a href="https://github.com/wood2jp2" target="_blank"><img src="assets/images/GitHubIcon.png"></a>
-		<a href="https://www.linkedin.com/in/joshua-wood-244b3688/" target="_blank"><img src="assets/images/LinkedInIcon.png"></a>
-		<a href="http://stackoverflow.com/users/7724716/josh-wood" target="_blank"><img src="assets/images/StackOverflowIcon.png"></a>
-
+		<a href="https://github.com/wood2jp2" target="_blank"><img src="assets/images/GitHubIcon.png" class="icon"></a>
+		<a href="https://www.linkedin.com/in/joshua-wood-244b3688/" target="_blank"><img src="assets/images/LinkedInIcon.png" class="icon"></a>
+		<a href="http://stackoverflow.com/users/7724716/josh-wood" target="_blank"><img src="assets/images/StackOverflowIcon.png" class="icon"></a>
+	</div>
 	<div class="footer">
-		<p>Copyright Joshua Wood 2017</p>
+		<p> © Copyright Joshua Wood 2017</p>
 	</div>
 </body>
 </html>
