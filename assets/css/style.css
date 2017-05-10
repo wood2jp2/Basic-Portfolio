@@ -78,6 +78,8 @@ html {
 	top: 10%;
 	background-color: #FAF4F4;
 	padding-left: 5px;
+	color: #4aaaa5;
+	font-weight: bold;
 }
 
 #submitbutton {
@@ -111,5 +113,36 @@ img {
 	float: center;
 	width: 150px;
 	height: 150px;
+}
+
+.placeholder_pics1, .placeholder_pics2, .placeholder_pics3 {
+	color: #4aaaa5;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.placeholder_pics1 {
+	float: left;
+	clear: left;
+	margin-left: 100px;
+}
+
+.placeholder_pics2 {
+	float: left;
+	margin-left: 20px;
+}
+
+.placeholder_pics3 {
+	float: left;
+	margin-left: 20px;
+}
+
+.row1, .row2 {
+	background-color: #4aaaa5;
+	position: relative;
+	bottom: -160px;
+	text-align: center;
+	padding: 7px;
+	color: white;
 }
 
