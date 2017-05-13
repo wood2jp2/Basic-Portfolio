@@ -87,6 +87,10 @@ html {
 	background-color: #FAF4F4;
 }
 
+#connectwithme:hover {
+	border: 2px solid #000080;
+}
+
 #contact_box {
 	margin-left: 100px;
 	margin-top: 20px;
@@ -101,11 +105,18 @@ html {
 	font-weight: bold;
 }
 
-#submitbutton {
+#contact_box:hover {
+	border: 2px solid #000080;
+}
+
+#submitbutton, #clearbutton {
+	float: left;
 	background-color: #e86666;
 	color: white;
-	width: 25%;
+	width: 19%;
 	padding: 10px;
+	margin: 1px;
+	border: 1px black solid;
 }
 
 a {
@@ -127,6 +138,10 @@ a {
 	background-color: #FAF4F4;
 	padding: 5px;
 	float: left;
+}
+
+.aboutme:hover {
+	border: 2px solid #000080;
 }
 
 img {
@@ -182,11 +197,15 @@ hr {
 	height: 60px
 }
 
-#submitbutton:hover {
+#submitbutton:hover, #clearbutton:hover, .row1:hover, .row2:hover {
 	background-color: #ff4d4d;
 }
 
 h3:hover {
 	font-weight: bolder;
 	font-size: 20px;
+}
+
+a:visited {
+	color: #8600b3;
 }
