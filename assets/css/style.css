@@ -181,6 +181,7 @@ img {
 
 input, textarea {
 	margin-bottom: 5px;
+	float:left;
 }
 
 hr {
@@ -196,6 +197,10 @@ hr {
 
 #submitbutton:hover, #clearbutton:hover, .row1:hover, .row2:hover {
 	background-color: #ff4d4d;
+}
+
+#submitbutton {
+	clear:left;
 }
 
 h3:hover {
